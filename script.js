@@ -38,7 +38,7 @@ function checker(input){
         case 'lose':
             result_ref.style.cssText = "background-color: #ffdde0; color: #d32f3f";
             result_ref.innerHTML = "YOU LOSE";
-            user_score++;
+            computer_score++;
             break;
         default:
             result_ref.style.cssText = "background-color: #e5e5e5; color: #808080";
